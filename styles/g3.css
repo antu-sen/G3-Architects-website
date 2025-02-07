@@ -48,6 +48,10 @@
     main > section {
        margin-top: 130px;
     }
+    .section-title {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
 
 
 
@@ -110,7 +114,7 @@
       width: 100%;
     }
 
-    /* them and feature releted styles */
+    /* them and feature releted styles start */
 
     .teams {
       align-items: center;
@@ -127,14 +131,12 @@
       max-width: 530px;
     }
 
-    .feature-title {
-      font-size: 2.8rem;
-      font-weight: 700;
-    }
+    
 
     #quick-list {
       font-weight: 500;
     }
+    /* them and feature releted styles end */
 
     /* responsive media query */
 
@@ -152,9 +154,11 @@
             margin-left: 20px;
 
       }
-      
-    }
+}
 
+
+      
+    
     /* medium size device  */
     @media screen and (min-width: 576px) and (max-width: 992px) {
       .teams {
